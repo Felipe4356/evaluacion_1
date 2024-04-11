@@ -1,0 +1,121 @@
+:root{
+    --color1: #fff;
+    --color2: #859398;
+    --color3: #001E2D;
+    --color4:  black;
+}
+
+body{
+background-color: var(--color2);   
+}
+
+/* Barra menu nav */
+.barra_menu{
+background-color: var(--color3);
+background: linear-gradient(to left, var(--color2), var(--color3));
+z-index: 1;
+} 
+
+/* color para opcion nav */
+.op{
+    color: var(--color1);
+}
+
+.logo{
+    height: 390px;
+    width: 1700px;
+    z-index: 2;
+    object-fit: cover;
+    background-color: var(--color4);
+    
+
+
+}
+
+
+
+.text_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    z-index: 3;
+    color: var(--color1);
+    @media (max-width: 768px) { /* Inicio de la regla @media que se aplica a dispositivos con una anchura máxima de 768px */
+        top: 30%;
+        left: 50%;
+    }
+    
+}
+
+/* estilo  texto flex-box y  resposive con css */
+.text_logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    z-index: 3;
+    color: var(--color1);
+    @media (max-width: 768px) { /* Inicio de la regla @media que se aplica a dispositivos con una anchura máxima de 768px */
+        top: 30%;
+        left: 50%;
+    }
+
+}
+
+.text_logo3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 55%;
+        z-index: 3;
+        color: var(--color1);
+        @media (max-width: 768px) { /* Inicio de la regla @media que se aplica a dispositivos con una anchura máxima de 768px */
+            top: 30%;
+            left: 50%;}
+}
+
+
+
+/* ajuste de imagen del producto */
+.portada{
+    height: 400px;
+    width: 590px;
+    margin: 20px;
+    @media (max-width: 768px) {
+            height: 300px;
+            width: 400px;
+            margin: 10px;
+    }
+    
+}
+
+/* ajuste de tamaño galeria de foto del producto_detalle */
+.ort_imagen{width:200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid var(--color4);
+    z-index: 1;
+
+
+}
+
+ /* ajuste de columna de contacto */
+.footerr{
+    background-color:  var(--color3);
+    color:  var(--color1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}

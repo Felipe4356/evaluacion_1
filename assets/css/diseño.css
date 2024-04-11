@@ -1,0 +1,78 @@
+
+
+:root
+{
+    --color1: #fff;
+    --color2: #859398;
+    --color3: #001E2D;
+    --color4:  black;
+}
+
+
+body{
+    /* background: #283048; */
+    background: linear-gradient(to right, var(--color2), var(--color1));
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 1px;
+    background-color: var(--color1)
+}
+
+/* colores de nav menu */
+.barra_menu {
+   background: linear-gradient(to left, var(--color2), var(--color3));
+}
+.op{
+color: var(--color1);
+}
+
+
+
+
+.cardPinturas{
+display: flex; 
+flex-wrap: wrap-reverse; 
+justify-content: flex-start; 
+align-items: flex-start; 
+ width: 30%;
+ 
+}
+
+.container-card{
+
+ display: flex; 
+ flex-wrap: wrap-reverse; 
+ justify-content: center; 
+ align-items: center; 
+flex-grow: 1;
+}
+
+.carta_img{
+    padding: 20 px;  }
+
+
+.card{
+    
+    background: var(--color1);
+    border: 1px solid var(--color3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     border-radius: 15px;       
+    margin: 10px;
+        padding: 10px;            
+    }    
+
+    /* ajuste de columna de contacto */
+.footerr{
+        background-color:  var(--color3);
+        color:  var(--color1);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        padding: 100px;
+        z-index: 1; }
