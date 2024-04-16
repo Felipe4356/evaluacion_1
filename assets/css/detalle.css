@@ -32,8 +32,6 @@ z-index: 1;
 
 }
 
-
-
 .text_logo{
     display: flex;
     justify-content: center;
@@ -80,6 +78,7 @@ z-index: 1;
             top: 30%;
             left: 50%;}
 }
+
 
 
 
