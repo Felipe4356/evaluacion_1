@@ -68,9 +68,9 @@ color: var(--color1);}
 input{
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 20;
     border: none;
-    border-radius: 1px;
+    border-radius: 2px;
     background-color: #f1f1f1;
 }
 
@@ -80,6 +80,7 @@ input{
 .contacto{
     background-color: var(--color3);
     color: var(--color1);
+    padding: 120px;
 }
 
 
